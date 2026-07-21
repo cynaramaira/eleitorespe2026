@@ -610,7 +610,7 @@
                 <div class="mini-region-card active" id="card-all" onclick="selectRegionCard('')">
                     <div class="mini-card-name">Pernambuco (Geral)</div>
                     <div class="mini-card-voters">${formatNum(totalStateVoters)}</div>
-                    <div class="mini-card-sub"><b>184</b> municípios</div>
+                    <div class="mini-card-sub"><b>184</b> municípios + Noronha</div>
                 </div>
             `;
 
@@ -637,7 +637,7 @@
                         <span class="geo-panel-badge">100% Cobertura</span>
                     </div>
                     <div class="geo-panel-text">
-                        Pernambuco conta com <b>${formatNum(totalStateVoters)} eleitores aptos</b> distribuídos em <b>184 municípios</b>. Os <b>30 maiores colégios eleitorais</b> concentram a maior fatia de votos para as Eleições 2026.
+                        Pernambuco conta com <b>${formatNum(totalStateVoters)} eleitores aptos</b> distribuídos em <b>184 municípios + Fernando de Noronha</b>. Os <b>30 maiores colégios eleitorais</b> concentram a maior fatia de votos para as Eleições 2026.
                     </div>
                 `;
                 return;
@@ -666,7 +666,7 @@
                         </div>
                     </div>
                     <div class="geo-metric-item">
-                        <span class="geo-metric-label">Peso Territorial: <b>${regInfo.citiesCount} de 184 cidades (${citiesPercent}%)</b></span>
+                        <span class="geo-metric-label">Peso Territorial: <b>${regInfo.citiesCount} de 184 cidades + Noronha (${citiesPercent}%)</b></span>
                         <div class="geo-metric-progress">
                             <div class="geo-metric-fill" style="width: ${citiesPercent}%;"></div>
                         </div>
